@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: "Exo 2", sans-serif;
+}
+
 #app {
     display: flex;
     flex-direction: column;

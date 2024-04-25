@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
         <title>Список дел</title>
         <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">              
     </head>
     <body>
         <div id="app">
             <h1>Список дел</h1>
             <div class="input-container">
-                <input type="text" placeholder="Введите дело">
-                <button class="add-button">Добавить</button>
+                <input id="item-text" type="text" placeholder="Введите дело">
+                <button id="button-add" class="add-button">Добавить</button>
             </div>
-            <div class="items-container">
-                <div class="item">
-                    <span>Помыться с головой</span>
-                    <button>x</button>
-                </div>
-                <div class="item">
-                    <span>Позавтракать</span>
-                    <button>x</button>
-                </div>
-                <div class="item">
-                    <span>Сделать шикарную прическу</span>
-                    <button>x</button>
-                </div>    
+            <div class="items-container" id="items-container">
+                   
             </div>
-        </div>        
+        </div>
+        
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
